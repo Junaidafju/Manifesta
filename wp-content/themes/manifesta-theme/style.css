@@ -1,0 +1,17 @@
+/*
+Theme Name: Manifesta Medical Academy
+Theme URI: https://manifesta.com
+Author: Manifesta
+Author URI: https://manifesta.com
+Description: Custom medical academy theme with ACF + Elementor hybrid. Features CPTs for Courses, Faculty, and Testimonials.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: manifesta
+Tags: medical, academy, education, custom-post-types, acf
+*/
+
+/* This file intentionally left minimal. All styles live in assets/css/main.css */

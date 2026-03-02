@@ -1,0 +1,39 @@
+/* ==========================================================================
+   MANIFESTA MEDICAL ACADEMY — editor.css
+   Applied in WP Admin / Elementor / Gutenberg editor for consistency.
+   ========================================================================== */
+
+/* Match the front-end typography */
+body.wp-admin,
+.block-editor-writing-flow,
+.elementor-edit-area {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    color: #1e293b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    color: #1a3a6b;
+    line-height: 1.2;
+}
+
+/* Gutenberg editor layout width */
+.wp-block {
+    max-width: 780px;
+}
+
+/* Admin custom colours for ACF / Metaboxes */
+.acf-label label {
+    font-weight: 600;
+    color: #1a3a6b;
+}
+
+.acf-field .acf-input {
+    border-color: #e2e8f0;
+}
