@@ -28,7 +28,7 @@
 
                         <h1 class="course-hero__title"><?php the_title(); ?></h1>
 
-                        <p class="course-hero__excerpt"><?php the_excerpt(); ?></p>
+                        <div class="course-hero__excerpt"><?php the_excerpt(); ?></div>
 
                         <ul class="course-hero__meta" aria-label="Course overview">
                             <?php $duration = get_field('course_duration'); ?>

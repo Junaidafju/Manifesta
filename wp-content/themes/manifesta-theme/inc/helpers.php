@@ -236,65 +236,22 @@ function manifesta_pagination(WP_Query $query): void
         }
         echo '</ul></nav>';
     }
+}
 
-
-
-
-
-    // Calculate reading time in blogs
-    function manifesta_reading_time()
-    {
-        $content = get_post_field('post_content', get_the_ID());
-        $word_count = str_word_count(strip_tags($content));
-        $reading_time = ceil($word_count / 200); // 200 words per minute
-
-        if ($reading_time < 1) {
-            $reading_time = 1;
-        }
-
-        return $reading_time;
+// ── Get estimated reading time ─────────────────────────────────────────────
+function manifesta_get_reading_time($post_id = null)
+{
+    if (!$post_id) {
+        $post_id = get_the_ID();
     }
 
-    // Get estimated reading time
-    function manifesta_get_reading_time($post_id = null)
-    {
-        if (!$post_id) {
-            $post_id = get_the_ID();
-        }
+    $content = get_post_field('post_content', $post_id);
+    $word_count = str_word_count(strip_tags($content));
+    $minutes = floor($word_count / 200);
 
-        $content = get_post_field('post_content', $post_id);
-        $word_count = str_word_count(strip_tags($content));
-        $minutes = floor($word_count / 200);
-        $seconds = floor($word_count % 200 / (200 / 60));
-
-        if ($minutes < 1) {
-            return '1 min read';
-        }
-
-        return $minutes . ' min read';
+    if ($minutes < 1) {
+        return '1 min read';
     }
 
-    // Custom excerpt length
-    function manifesta_excerpt_length($length)
-    {
-        return 30;
-    }
-    add_filter('excerpt_length', 'manifesta_excerpt_length');
-
-    // Custom excerpt more
-    function manifesta_excerpt_more($more)
-    {
-        return '...';
-    }
-    add_filter('excerpt_more', 'manifesta_excerpt_more');
-
-    // Add author social fields
-    function manifesta_author_social_media($contactmethods)
-    {
-        $contactmethods['twitter'] = 'Twitter URL';
-        $contactmethods['linkedin'] = 'LinkedIn URL';
-        $contactmethods['facebook'] = 'Facebook URL';
-        return $contactmethods;
-    }
-    add_filter('user_contactmethods', 'manifesta_author_social_media', 10, 1);
+    return $minutes . ' min read';
 }

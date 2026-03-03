@@ -88,7 +88,7 @@
 
                     <!-- Accreditation / Trust Badges -->
                     <div class="footer-trust-badges">
-                        <span class="trust-badge"><span class="check-icon">✓</span> NMC Recognized</span>
+                        <span class="trust-badge"><span class="check-icon">✓</span> PCPNDT Recognized</span>
                         <span class="trust-badge"><span class="check-icon">✓</span> ART Compliant</span>
                         <span class="trust-badge"><span class="check-icon">✓</span> ISO 9001:2024</span>
                         <span class="trust-badge"><span class="check-icon">✓</span> 500+ Doctors Trained</span>
@@ -96,33 +96,35 @@
 
                     <!-- Social Icons with Schema -->
                     <div class="social-links" aria-label="Social media links" itemprop="sameAs">
-                        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24">
+                        <a href="https://www.facebook.com/profile.php?id=100082342310230" target="_blank" rel="noopener"
+                            aria-label="Facebook"><svg viewBox="0 0 24 24">
                                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z"
                                     fill="currentColor" />
                             </svg></a>
-                        <a href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24">
+                        <!-- <a href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24">
                                 <path
                                     d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
                                     fill="currentColor" />
-                            </svg></a>
-                        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24">
+                            </svg></a> -->
+                        <a href="https://www.linkedin.com/company/manifesta-medical-academy/" target="_blank"
+                            rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24">
                                 <path
                                     d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2V9z"
                                     fill="currentColor" />
                                 <circle cx="4" cy="4" r="2" fill="currentColor" />
                             </svg></a>
-                        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24">
+                        <a href="https://www.instagram.com/manifesta.96/" target="_blank" rel="noopener"
+                            aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                                 <path
-                                    d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"
-                                    fill="currentColor" />
-                                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" />
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
                             </svg></a>
-                        <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24">
+                        <!-- <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24">
                                 <path
                                     d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
                                     fill="currentColor" />
                                 <path d="M9.75 15.02l5.75-3.27-5.75-3.27v6.54z" fill="white" />
-                            </svg></a>
+                            </svg></a> -->
                     </div>
                 </div>
 
@@ -174,7 +176,9 @@
                     <address class="footer-address" itemprop="address" itemscope
                         itemtype="https://schema.org/PostalAddress">
                         <span class="contact-icon">📍</span>
-                        <span itemprop="streetAddress">Plot 114, 1st floor sector-44, Gurgaon 122001.</span><br>
+                        <span itemprop="streetAddress"><a href="https://maps.app.goo.gl/8ghAnkuVYip7M3UK9">3rd Floor,
+                                161-A/9, Kishangarh, Vasant Kunj, South Delhi,
+                                110070.</a></span>
                         <!-- <span itemprop="addressLocality">Gurgaon</span>, <span itemprop="addressRegion">Haryana</span> -
                         <span itemprop="postalCode">122001</span> -->
                     </address>

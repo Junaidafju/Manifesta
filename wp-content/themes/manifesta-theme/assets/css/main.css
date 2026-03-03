@@ -1260,9 +1260,15 @@ a.course-filter__btn.is-active {
 
 .course-hero__excerpt {
     font-size: var(--font-size-lg);
-    color: var(--color-text-light);
+    color: var(--color-text);
     margin-bottom: var(--space-6);
 }
+
+.course-hero__excerpt p {
+    color: inherit;
+    margin-bottom: var(--space-4);
+}
+
 
 .course-hero__meta {
     list-style: none;
@@ -1381,6 +1387,7 @@ a.course-filter__btn.is-active {
     background: var(--color-off-white);
     border-radius: var(--radius-lg);
     font-size: var(--font-size-sm);
+    color: var(--color-text);
 }
 
 .highlight-check {
@@ -1416,7 +1423,7 @@ a.course-filter__btn.is-active {
     padding: var(--space-5) var(--space-6);
     font-size: var(--font-size-base);
     font-weight: 600;
-    color: var(--color-text);
+    color: var(--color-light);
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -47,7 +47,7 @@ add_action('init', function () {
             'menu_name' => __('Faculty', 'manifesta'),
         ],
         'public' => true,
-        'has_archive' => false,
+        'has_archive' => true,
         'rewrite' => ['slug' => 'faculty'],
         'menu_icon' => 'dashicons-id-alt',
         'menu_position' => 6,

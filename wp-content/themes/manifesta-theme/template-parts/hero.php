@@ -771,7 +771,7 @@ $hero_bg_url = !empty($hero_image['url'])
             <div class="hero-pills" role="list" aria-label="Key features">
                 <span class="hero-pill" role="listitem">
                     <span class="hero-pill__icon" aria-hidden="true">✅</span>
-                    NMC Recognised
+                    PCPNDT Approved
                 </span>
                 <span class="hero-pill" role="listitem">
                     <span class="hero-pill__icon" aria-hidden="true">🎓</span>
@@ -930,7 +930,8 @@ $hero_bg_url = !empty($hero_image['url'])
         <header class="section-header text-center" data-aos="fade-up">
             <span class="section-eyebrow">Certified Programs</span>
             <h2 id="programs-title" class="section-title" style="color: #e67e22;">Our Programs</h2>
-            <p class="section-subtitle">Structured, hands-on programs designed exclusively for practising doctors
+            <p class="section-subtitle" style="color: #ffffffff;">Structured, hands-on programs designed exclusively for
+                practising doctors
                 seeking to specialise in reproductive medicine and ART.</p>
         </header>
 
@@ -1107,7 +1108,8 @@ $hero_bg_url = !empty($hero_image['url'])
             <span class="section-eyebrow">Expert Faculty</span>
             <h2 id="faculty-title" style="color: #ffffff;" class="section-title">Learn from Leading Fertility Experts
             </h2>
-            <p class="section-subtitle">Our faculty are actively practising clinicians with decades of experience in
+            <p class="section-subtitle" style="color: #e67e22;">Our faculty are actively practising clinicians with
+                decades of experience in
                 IVF, embryology, and reproductive endocrinology.</p>
         </header>
 
